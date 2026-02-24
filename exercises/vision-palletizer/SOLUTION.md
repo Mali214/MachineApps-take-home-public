@@ -145,5 +145,9 @@ docker exec palletizer-backend python -m pytest tests/ -v
 ```
 
 > `httpx` is required by FastAPI's `TestClient` for `test_routes.py`. It is listed in `requirements.txt` and installed automatically when the container is built.
+---
+## Demo Video
+2×2 palletizing sequence in URSim:
+https://drive.google.com/file/d/14XplTdltgz_qcBvuXgE5PWwHBlolEGsJ/view?usp=sharing
 
 
