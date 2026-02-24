@@ -18,7 +18,7 @@ Each module is independently testable, and dependencies are kept minimal (the AP
 
 ---
 
-### 1. Coordinate Transformations (35%)
+### 1. Coordinate Transformations
 
 **Approach:**  
 Built a standard 4×4 homogeneous transformation pipeline:
@@ -32,7 +32,7 @@ Built a standard 4×4 homogeneous transformation pipeline:
 
 ---
 
-### 2. Working Palletizing Sequence (35%)
+### 2. Working Palletizing Sequence
 
 **Motion strategy:**
 
@@ -149,5 +149,6 @@ docker exec palletizer-backend python -m pytest tests/ -v
 ## Demo Video
 2×2 palletizing sequence in URSim:
 https://drive.google.com/file/d/14XplTdltgz_qcBvuXgE5PWwHBlolEGsJ/view?usp=sharing
+
 
 
